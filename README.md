@@ -10,6 +10,7 @@
     > just use random number
     
 3. **ex02** Save the codes generated above to relational Database like MySQL.  
-    > use PostgreSQl, use psycopg2
+    > use PostgreSQl, psycopg2
     
 4. **ex03** Save the codes generated above to non-relational Database like Redis.  
+    > use Redis, redis-py
