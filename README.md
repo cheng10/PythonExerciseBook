@@ -14,3 +14,6 @@
     
 4. **ex03** Save the codes generated above to non-relational Database like Redis.  
     > use Redis, redis-py
+
+5. **ex04** Count the word frequency in a txt file.
+    > use string.translate to remove punctuation, sorted to rank the frequency
