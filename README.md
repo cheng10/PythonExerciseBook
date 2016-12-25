@@ -17,3 +17,6 @@
 
 5. **ex04** Count the word frequency in a txt file.
     > use string.translate to remove punctuation, sorted to rank the frequency
+    
+6. **ex05** Resize photo
+    > use pillow
