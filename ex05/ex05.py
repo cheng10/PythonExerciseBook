@@ -1,9 +1,11 @@
 from PIL import Image
-import glob, os
+import os
 
-size = 50, 50
 
-for infile in glob.glob("*.jpeg"):
-    im = Image.open(infile)
-    after = im.resize(size)
-    after.save("resize_"+infile, "JPEG")
+DIR = 'imgs/'
+
+for img in os.listdir(DIR):
+    im = Image.open(DIR+img)
+    after = im.resize((50, 50))
+    after.show()
+    after.save("resize_"+img, 'jpeg')
