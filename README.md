@@ -16,7 +16,10 @@
     > use Redis, redis-py
 
 5. **ex04** Count the word frequency in a txt file.
-    > use string.translate to remove punctuation, sorted to rank the frequency
+    > use string.translate to remove punctuation, sorted to rank the frequency.
     
-6. **ex05** Resize photo
+6. **ex05** Resize photo.
     > use pillow
+
+7. **ex06** Get most important words from a list of text files.
+    > use tf-idf algorithm,  ski-kit learn library
